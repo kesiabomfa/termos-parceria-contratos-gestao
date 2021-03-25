@@ -105,15 +105,15 @@
           },
           {
             "name": "URL_INTEGRA_TERMO_CONTRATO",
-            "type": "URL",
-            "format": "default",
+            "type": "string",
+            "format": "uri",
             "title": "URL da íntegra do Contrato de Gestão ou Termo de Parceria",
             "description": "Link para acessar o Contrato de Gestão ou Termo de Parceria"
           },
           {
             "name": "URL_DOCUMENTOS_TERMO_CONTRATO",
-            "type": "URL",
-            "format": "default",
+            "type": "string",
+            "format": "uri",
             "title": "URL da Página dos documentos",
             "description": "Link para acessar a página principal contendo os documentos do Contrato de Gestão ou Termo de Parceria"
           }
@@ -158,8 +158,8 @@
           },
           {
             "name": "URL_DOCUMENTO",
-            "type": "URL",
-            "format": "default",
+            "type": "string",
+            "format": "uri",
             "title": "URL do Documento",
             "description": "Link para acessar o documento"
           },
@@ -275,8 +275,8 @@
           },
           {
             "name": "URL_DOCUMENTO",
-            "type": "URL",
-            "format": "default",
+            "type": "string",
+            "format": "uri",
             "title": "URL do Documento",
             "description": "Link para acessar o relatório"
           },
