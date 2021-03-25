@@ -34,7 +34,7 @@
             "description": "Numeração do instrumento jurídico, estabelecida pela Secretaria de Estado de Planejamento e Gestão"
           },
           {
-            "name": "ORGAO_ESTATA_CODIGO",
+            "name": "ORGAO_ESTATAL_CODIGO",
             "type": "number",
             "format": "default",
             "description": "Código da unidade orçamentária do órgão estadual signatário do instrumento jurídico.",
@@ -105,14 +105,14 @@
           },
           {
             "name": "URL_INTEGRA_TERMO_CONTRATO",
-            "type": "url",
+            "type": "URL",
             "format": "default",
             "title": "URL da íntegra do Contrato de Gestão ou Termo de Parceria",
             "description": "Link para acessar o Contrato de Gestão ou Termo de Parceria"
           },
           {
             "name": "URL_DOCUMENTOS_TERMO_CONTRATO",
-            "type": "url",
+            "type": "URL",
             "format": "default",
             "title": "URL da Página dos documentos",
             "description": "Link para acessar a página principal contendo os documentos do Contrato de Gestão ou Termo de Parceria"
@@ -154,7 +154,7 @@
           },
           {
             "name": "URL_DOCUMENTO",
-            "type": "url",
+            "type": "URL",
             "format": "default",
             "title": "URL do Documento",
             "description": "Link para acessar o documento"
@@ -199,14 +199,18 @@
             "type": "number",
             "format": "default",
             "title": "Repasse Previsto",
-            "description": "Valor total de recursos previstos para a execução da parceria, por ano."
+            "description": "Valor total de recursos previstos para a execução da parceria, por ano.",
+            "groupChar":".",
+            "decimalChar":","
           },
           {
             "name": "REPASSE_ATUALIZADO",
             "type": "number",
             "format": "default",
             "title": "Repasse Atualizado",
-            "description": "Valor total de recursos efetivamente disponibilizados para a execução da parceria"
+            "description": "Valor total de recursos efetivamente disponibilizados para a execução da parceria",
+            "groupChar":".",
+            "decimalChar":","
           },
           {
             "name": "OBSERVACOES",
@@ -259,7 +263,7 @@
           },
           {
             "name": "URL_DOCUMENTO",
-            "type": "url",
+            "type": "URL",
             "format": "default",
             "title": "URL do Documento",
             "description": "Link para acessar o relatório"
