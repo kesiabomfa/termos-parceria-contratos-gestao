@@ -2,7 +2,7 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "contratos-gestao-termos-parceria",
+      "name": "transferencia-impostos-municipios",
       "path": "contratos-gestao-termos-parceria.csv",
       "profile": "tabular-data-resource",
       "title": "Contratos de Gestão e Termos de Parceria",
@@ -92,14 +92,14 @@
           {
             "name": "DATA_INICIO_VIGENCIA",
             "type": "date",
-            "format": "dd/mm/yyyy",
+            "format": "%d%m%Y",
             "title": "Data de Início da Vigência",
             "description": "Data em que o instrumento jurídico se inicia, correspondente a data de publicação do mesmo no Diário Oficial dos Poderes do Estado de Minas Gerais."
           },
           {
             "name": "DATA_FIM_VIGENCIA",
             "type": "date",
-            "format": "dd/mm/yyyy",
+            "format": "%d%m%Y",
             "title": "Data Fim da Vigência",
             "description": "Data em que o instrumento jurídico terminou ou que será extinto."
           },
