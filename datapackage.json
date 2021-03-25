@@ -151,7 +151,7 @@
           },
           {
             "name": "DOCUMENTO",
-            "type": "number",
+            "type": "string",
             "format": "default",
             "title": "Número do Documento",
             "description": "Informa o número do documento"
